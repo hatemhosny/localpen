@@ -16,6 +16,7 @@ import { perlStarter } from './perl-starter';
 import { phpStarter } from './php-starter';
 import { polymerStarter } from './polymer-starter';
 import { preactStarter } from './preact-starter';
+import { pyodideStarter } from './pyodide-starter';
 import { pythonStarter } from './python-starter';
 import { reactStarter } from './react-starter';
 import { readmeTemplate } from './readme-template';
@@ -52,6 +53,7 @@ export const starterTemplates = [
   tailwindcssStarter,
   d3Starter,
   pythonStarter,
+  pyodideStarter,
   rubyStarter,
   phpStarter,
   perlStarter,

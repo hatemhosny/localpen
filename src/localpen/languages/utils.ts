@@ -40,6 +40,8 @@ export const mapLanguage = (language: Language): Language =>
     ? 'html'
     : language === 'mdx'
     ? 'markdown'
+    : language === 'pyodide'
+    ? 'python'
     : language;
 
 export const languageIsEnabled = (language: Language, config: Pen) => {

@@ -30,6 +30,7 @@ import { lua } from './lang-lua';
 import { scheme } from './lang-scheme';
 import { solid } from './lang-solid';
 import { solidTsx } from './lang-solid-tsx';
+import { pyodide } from './lang-python-pyodide';
 
 export const languages: LanguageSpecs[] = [
   html,
@@ -58,6 +59,7 @@ export const languages: LanguageSpecs[] = [
   livescript,
   assemblyscript,
   python,
+  pyodide,
   ruby,
   php,
   perl,

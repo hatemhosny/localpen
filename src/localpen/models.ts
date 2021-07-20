@@ -97,6 +97,8 @@ export type Language =
   | 'as'
   | 'python'
   | 'py'
+  | 'pyodide'
+  | 'py3'
   | 'ruby'
   | 'rb'
   | 'php'
